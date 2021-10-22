@@ -1,0 +1,21 @@
+GET http://localhost:5000/messages
+
+
+### 
+GET http://localhost:5000/messages/913ca51b-4c57-4ff8-a965-9122b4a07db9
+
+
+###
+POST http://localhost:5000/messages
+Content-Type: application/json
+
+{
+    "text": "Next message",
+    "email": "ben@gmail.com",
+    "timeValue": "10.02.2021"
+}
+
+### 
+
+DELETE http://127.0.0.1:5000/messages/913ca51b-4c57-4ff8-a965-9122b4a07db9
+
